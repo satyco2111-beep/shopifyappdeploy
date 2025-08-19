@@ -11,7 +11,7 @@ export const loader = async ({ request }) => {
   try {
     const sessions = await db.session.findMany(); // Prisma syntax to get all sessions
     return {
-      message: "Congrats on your SKU app deployed! raajveer",
+      message: "Congrats on your SKU app deployed!",
       name: "Inventory App",
       sessions,
     };
